@@ -6,6 +6,11 @@
   height: 40vmin;
   pointer-events: none;
 }
+body {
+  font-family: "Capriola", sans-serif;
+  background: #0089ba;
+  height: 225vh;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -35,4 +40,112 @@
   to {
     transform: rotate(360deg);
   }
+}
+.header {
+  background-color: #0089ba;
+}
+.nav-item {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.nav-link {
+  color: white;
+  font-size: large;
+}
+.about {
+  margin: 10px;
+}
+.name {
+  color: aquamarine;
+  font-style: italic;
+}
+.card {
+  margin-top: 50px;
+}
+.img-responsive {
+  margin: 20px;
+}
+.aboutme {
+  margin: 20px;
+}
+.project-title {
+  text-align: center;
+}
+.project-img {
+  width: 90%;
+  border: 2px solid black;
+  margin: 10px;
+  border-radius: 5%;
+}
+.skill {
+  width: 60%;
+  height: 100%;
+}
+.col-md-2 {
+  margin-left: 40px;
+}
+.social-img {
+  margin: 10px;
+}
+.social-text {
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.form-group {
+  margin: 30px;
+}
+.form-control {
+  background-color: rgb(216, 216, 216);
+}
+.btn1 {
+  background-color: #ff416d;
+  border-radius: 10px;
+  border: 2px solid pink;
+}
+.btn1:hover {
+  background-color: #ff416d;
+}
+.about-pic {
+  margin: 10px;
+  width: 80%;
+}
+.about-text {
+  margin: 10px;
+  font-size: 100%;
+  font-weight: bolder;
+}
+.text {
+  text-align: center;
+}
+.text-center {
+  font-weight: bold;
+}
+.bg-light {
+  margin: 20px;
+}
+.fa {
+  font-size: 48px;
+  color: white;
+}
+.project-img:hover {
+  border: 5px solid #ff416d;
+  transition: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.btn {
+  color: #051937;
+  margin: 10px;
+  background-color: rgb(177, 214, 214);
+  border: 2px solid rgb(137, 236, 240);
+}
+.btn:hover {
+  color: white;
+  background-image: linear-gradient(
+    to bottom,
+    #051937,
+    #10325f,
+    #184f8b,
+    #1b6dba,
+    #128deb
+  );
 }

@@ -9,7 +9,11 @@ function About() {
           <div class="row">
             <div class="col-md-2">
               <div class="about">
-                <img src="./assets/DHINESH.JPG" class="about-pic" alt="mypic" />
+                <img
+                  src="./assets/dhinesh1.JPG"
+                  class="about-pic"
+                  alt="mypic"
+                />
               </div>
             </div>
             <div class="col-md-8">

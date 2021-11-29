@@ -24,12 +24,6 @@ function Socialnetwork() {
                 <span class="social-text">Dhinesh Dhamodharan</span>
               </a>
             </div>
-            <div class="col-md-3">
-              <a href="https://github.com/dhineshdhamodharan" target="_blank">
-                <img src="./assets/twitter-64.png" class="social-img" />
-                <span class="social-text">@dheenu_dhinesh</span>
-              </a>
-            </div>
           </div>
         </div>
       </div>

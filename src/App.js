@@ -36,11 +36,10 @@ function App() {
       </header>
       <Home />
       <About />
-      <Projects />
       <Technicalskills />
+      <Projects />
       <Socialnetwork />
       <Contact />
-
       <Footer />
     </>
   );

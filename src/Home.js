@@ -10,14 +10,14 @@ function Home() {
           </h1>
           <h5>A full stack web developer</h5>
           <a
-            href="https://drive.google.com/file/d/1TxlJLsgPvt7a4igRYujBl1ew2Hf5XpUF/view"
+            href="https://drive.google.com/file/d/1cmi2hY-3K-xLAeA-t7RSmt7td2RX52YJ/view?usp=sharing"
             target="_blank"
           >
             <button type="button" class="btn btn-light">
               View Resume
             </button>
           </a>
-          <a href="./assets/Dhinesh Resume.pdf">
+          <a href="./assets/Resume.pdf" target="_blank">
             <button type="button" class="btn btn-light">
               Download Resume
             </button>

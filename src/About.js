@@ -5,7 +5,9 @@ function About() {
     <div class="container" id="About">
       <div class="card">
         <div class="card-block">
-          <h2 className="aboutme">About me</h2>
+          <h2 className="aboutme">
+            <u>About me</u>
+          </h2>
           <div class="row">
             <div class="col-md-2">
               <div class="about">

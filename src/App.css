@@ -72,7 +72,7 @@ body {
   text-align: center;
 }
 .project-img {
-  width: 90%;
+  width: 100%;
   border: 2px solid black;
   margin: 10px;
   border-radius: 5%;
@@ -153,4 +153,12 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   text-align: center;
+}
+.card-text {
+  margin: 5px;
+}
+.img-thumbnail {
+  width: 10%;
+  margin: 30px;
+  border: none;
 }

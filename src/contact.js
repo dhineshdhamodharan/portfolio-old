@@ -33,7 +33,9 @@ function Contact() {
     <div className="container" id="Contact">
       <div class="card">
         <div class="card-block">
-          <h2 className="aboutme">Contact</h2>
+          <h2 className="aboutme">
+            <u>Contact Me</u>
+          </h2>
           <form onSubmit={handleSubmit} className="form">
             <div class="form-group">
               <input

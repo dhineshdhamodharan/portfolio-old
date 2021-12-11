@@ -5,6 +5,7 @@ import Projects from "./Projects";
 import Technicalskills from "./Technicalskills";
 import Socialnetwork from "./socialnetwork";
 import Contact from "./contact";
+import Achievements from "./Achievements.js";
 
 import Footer from "./footer";
 function App() {
@@ -38,6 +39,7 @@ function App() {
       <About />
       <Technicalskills />
       <Projects />
+      <Achievements />
       <Socialnetwork />
       <Contact />
       <Footer />

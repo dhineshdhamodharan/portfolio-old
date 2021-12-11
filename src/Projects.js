@@ -5,83 +5,136 @@ function Projects() {
     <div class="container" id="Projects">
       <div class="row">
         <div class="col-xs-12">
-          <div class="card">
-            <div class="card-block">
-              <h2 className="aboutme">Projects</h2>
-              <div class="row">
-                <div class="col-md-3">
+          <div class="card mb-3" style={{ "max-width": "540px;" }}>
+            <h2 className="aboutme">
+              <u>Projects</u>
+            </h2>
+            <div class="row g-0">
+              {/* Project 1 */}
+              <div class="col-md-6">
+                <img
+                  src="./assets/pizzaapp.png"
+                  class="img-fluid rounded-start"
+                  alt="project"
+                />
+              </div>
+              <div class="col-md-6">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <u>1. Pizza App</u>
+                  </h5>
+                  <p class="card-text">Front-end :</p>
                   <p>
                     <a
-                      href="https://pizza-delivery-application.netlify.app/home"
+                      href="https://github.com/dhineshdhamodharan/pizzadelivery_react"
                       target="_blank"
-                      rel="noreferrer"
-                      className="link2"
                     >
-                      <img
-                        src="./assets/pizzaapp.png"
-                        class="project-img"
-                        alt="myimg"
-                      />
+                      https://github.com/dhineshdhamodharan/pizzadelivery_react
                     </a>
                   </p>
-                  <p className="text-center">Pizza App</p>
-                </div>
-
-                <div class="col-md-3">
+                  <p class="card-text">Back-end :</p>
                   <p>
                     <a
-                      href="https://dhinesh-b251-hackathon-makeupapi.netlify.app"
+                      href="https://github.com/dhineshdhamodharan/pizzadelivery_node"
                       target="_blank"
-                      rel="noreferrer"
-                      className="link2"
                     >
-                      <img
-                        src="./assets/Makeupapi.png"
-                        class="project-img"
-                        alt="myimg"
-                      />
+                      https://github.com/dhineshdhamodharan/pizzadelivery_node
                     </a>
                   </p>
-                  <p className="text-center">Makeup App</p>
-                </div>
-
-                <div class="col-md-3">
+                  <p class="card-text">Netlify :</p>
                   <p>
                     <a
-                      href="https://dhinesh-b25g-todoapp.netlify.app"
+                      href="https://pizza-delivery-application.netlify.app"
                       target="_blank"
-                      rel="noreferrer"
-                      className="link2"
                     >
-                      <img
-                        src="./assets/Todoapp.png"
-                        class="project-img"
-                        alt="myimg"
-                      />
+                      https://pizza-delivery-application.netlify.app
                     </a>
                   </p>
-
-                  <p className="text-center">Todo App</p>
-                </div>
-
-                <div class="col-md-3">
-                  <p>
-                    <a
-                      href="https://dhinesh-b25g-addtocart-task.netlify.app"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="link2"
-                    >
-                      <img
-                        src="./assets/addtocart.png"
-                        class="project-img"
-                        alt="myimg"
-                      />
-                    </a>
-                  </p>
-                  <p className="text-center">Add to Cart</p>
                 </div>
               </div>
+              <hr></hr>
+              {/* Porject1 */}
+
+              {/* Project 2 */}
+              <div class="col-md-6">
+                <img
+                  src="./assets/Makeupapi.png"
+                  class="img-fluid rounded-start"
+                  alt="project"
+                />
+              </div>
+              <div class="col-md-6">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <u>2. Makeup API</u>
+                  </h5>
+                  <p class="card-text">Github :</p>
+                  <p>
+                    <a
+                      href="https://github.com/dhineshdhamodharan/pizzadelivery_react"
+                      target="_blank"
+                    >
+                      https://github.com/dhineshdhamodharan/hackathon_task
+                    </a>
+                  </p>
+
+                  <p class="card-text">Netlify :</p>
+                  <p>
+                    <a
+                      href="https://dhinesh-b251-hackathon-makeupapi.netlify.app/"
+                      target="_blank"
+                    >
+                      https://dhinesh-b251-hackathon-makeupapi.netlify.app/
+                    </a>
+                  </p>
+                </div>
+              </div>
+              <hr></hr>
+              {/* Project2 */}
+
+              {/* Project 3 */}
+              <div class="col-md-6">
+                <img
+                  src="./assets/dashboard.png"
+                  class="img-fluid rounded-start"
+                  alt="project"
+                />
+              </div>
+              <div class="col-md-6">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <u>3. Dashboard App</u>
+                  </h5>
+                  <p class="card-text">Front-end :</p>
+                  <p>
+                    <a
+                      href="https://github.com/dhineshdhamodharan/dashboardapp-with-mongo-react"
+                      target="_blank"
+                    >
+                      https://github.com/dhineshdhamodharan/dashboardapp-with-mongo-react
+                    </a>
+                  </p>
+                  <p class="card-text">Back-end :</p>
+                  <p>
+                    <a
+                      href="https://github.com/dhineshdhamodharan/dashboardapp-with-mongo-node"
+                      target="_blank"
+                    >
+                      https://github.com/dhineshdhamodharan/dashboardapp-with-mongo-node
+                    </a>
+                  </p>
+                  <p class="card-text">Netlify :</p>
+                  <p>
+                    <a
+                      href="https://dashboardapp-reactwithmongodb.netlify.app/"
+                      target="_blank"
+                    >
+                      https://dashboardapp-reactwithmongodb.netlify.app/
+                    </a>
+                  </p>
+                </div>
+              </div>
+              {/* Porject3 */}
             </div>
           </div>
         </div>
